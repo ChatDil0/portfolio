@@ -49,7 +49,12 @@
 
 .content .btn{
     margin: 1rem 0.2rem;
+    border: none;
 }
+
+.content .btn-light {
+    border: 1px solid #fff;
+  }
 
 @media screen and (max-width:640px){
     .hero .content h1{
