@@ -54,7 +54,58 @@
 
 .content .btn-light {
     border: 1px solid #fff;
-  }
+}
+
+.scroll{
+    position: absolute;
+    transform: translate(-50%, 0%);
+    top: 45vh;
+    left: 50%;
+}
+
+.scroll-icon{
+    position: relative;
+    transform: translate(-50%, -20%);
+    left: 50%;
+    width: 2em;
+    height: 3.5em;
+    border: .1em solid #fff;
+    border-radius: 2em;
+}
+
+.scroll-icon .wheel{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: #fff;
+    transform: translate(-50%,0);
+    border-radius: .6em;
+    animation: wheel-dot 1.3s ease-in-out infinite;
+}
+
+.content .scroll p{
+    position: relative;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-transform: lowercase;
+}
+
+@keyframes wheel-dot {
+    0%{
+        transform: translate(-50%,0);
+        opacity: 0;
+    }
+    20%, 95%{
+        opacity: 1;
+    }
+    95%, 100%{
+        transform: translate(-50%, 400%);
+        opacity: 0;
+    }
+}
+
 
 @media screen and (max-width:640px){
     .hero .content h1{
@@ -63,5 +114,12 @@
     
     .hero .content p{
         font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-height:750px){
+    .scroll{
+        transform: translate(-50%, 0%);
+        top: 50vh;
     }
 }

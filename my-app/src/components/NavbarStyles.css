@@ -36,8 +36,7 @@
 
 .nav-menu li a.active{
     color: #e4d935;
-    text-decoration: underline ;
-    transform: scale(1);
+    transform: scale(1.05);
 }
 
 .hamburger{

@@ -18,6 +18,12 @@ function HeroImg() {
                 <Link to="/Projects" className="btn">Projects</Link>
                 <Link to="/Contact" className="btn btn-light">Contact</Link>
             </div>
+            <div className="scroll">
+              <div className="scroll-icon">
+                <span className="wheel"></span>
+              </div>
+              <p>scroll down</p>
+            </div>
         </div>
     </div>
   );

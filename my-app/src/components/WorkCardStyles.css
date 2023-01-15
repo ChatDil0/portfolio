@@ -36,12 +36,16 @@
 
 .pro-btns {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.5rem 0;
 }
 
 .pro-btns .btn{
     padding: 0.5rem 1rem;
+}
+/*no soirce yet*/
+.pro-btns .btn-light{
+    display: none;
 }
 
 @media screen and (max-width:740px) {
