@@ -12,8 +12,8 @@ function HeroImg() {
             <img className="into-img" src={IntoImg} alt="IntoImg" />
         </div>
         <div className="content">
-            <p>hi, i'm a freelancer</p>
-            <h1>REACT DEVELOPER</h1>
+            <p>hi, i'm a chathura</p>
+            <h1>FULL STACK DEVELOPER</h1>
             <div>
                 <Link to="/Projects" className="btn">Projects</Link>
                 <Link to="/Contact" className="btn btn-light">Contact</Link>
