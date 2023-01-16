@@ -10,7 +10,7 @@ function AboutContent() {
     <div className="about">
         <div className="left">
             <h1>Who Am I ?</h1>
-            <p>I am a second-year undergraduate student at Eastern University Sri Lanka. I am a programmer, specializing in problem-solving and web development. Also, I works as a Fiverr Graphic designer and Front end Web developer for the last two years.</p>
+            <p>A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place.</p>
             <Link to="/Contact">
                 <button className="btn">Contact</button>
             </Link>

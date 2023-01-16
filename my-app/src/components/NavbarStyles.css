@@ -26,17 +26,6 @@
     font-size: 1.2rem;
     font-weight: 600;
     display: inline-block;  
-    transition: 0.3s ease-in-out;
-}
-
-.nav-menu li a:hover{
-    color: #e4d935;
-    transform: scale(1.05);
-}
-
-.nav-menu li a.active{
-    color: #e4d935;
-    transform: scale(1.05);
 }
 
 .hamburger{

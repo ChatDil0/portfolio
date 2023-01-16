@@ -8,29 +8,29 @@ function Footer() {
     <div className="footer">
         <div className="footer-container">
             <div className="left">
-                <a href="tel:+94 76 183 1436"><div className="phone">
-                    <h4><FaPhone size={20} style={{color:"#fff", marginRight:"2rem"}}/>+94 183 1436</h4>
+                <a href=" "><div className="phone">
+                    <h4><FaPhone size={20} style={{color:"#fff", marginRight:"2rem"}}/>number</h4>
                 </div></a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chathurar.99.bc@gmail.com" target="_"><div className="email">
-                    <h4><FaMailBulk size={20} style={{color:"#fff", marginRight:"2rem"}}/>chathurar.99.bc@gmail.com</h4>
+                <a href=" " target="_"><div className="email">
+                    <h4><FaMailBulk size={20} style={{color:"#fff", marginRight:"2rem"}}/>mail@email.com</h4>
                 </div></a>
                 <div className="location">
-                    <a href="https://goo.gl/maps/Qy6Mi8rsnLnRHRLp6" target="_"><FaHome size={20} style={{color:"#fff", marginRight:"2rem"}}/>
+                    <a href=" " target="_"><FaHome size={20} style={{color:"#fff", marginRight:"2rem"}}/>
                     <div>
-                        <p>185/D, Wendagame, Pasyala,</p>
-                        <p>Sri Lanka</p>
+                        <p>Address line 1</p>
+                        <p>Address line 2</p>
                     </div></a>
                 </div>
             </div>
             <div className="right">
                 <h4>About the company</h4>
-                <p>I am Chathura Dilshan Ranasinghe the founder & CEO of <span>Zebo</span> <span>creations</span>. I have been working as a Fiverr graphic designer and web developer for the past two years. I am well experienced with logo designing, graphic designing, and Web development.</p>
+                <p>A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place.</p>
                 <div className="social">
-                    <a href="https://www.facebook.com/chathura.ranasinghe.zebo/" target="_"><FaFacebook/></a>
-                    <a href="https://github.com/ChatDil0" target="_"><FaGithub/></a>
-                    <a href="https://twitter.com/ChathuraRanas15" target="_"><FaTwitter/></a>
-                    <a href="https://www.instagram.com/__chathura._.ranasinghe__/" target="_"><FaInstagram/></a>
-                    <a href="https://www.linkedin.com/in/chathura-ranasinghe-925952222" target="_"><FaLinkedin/></a>
+                    <a href=" " target="_"><FaFacebook/></a>
+                    <a href=" " target="_"><FaGithub/></a>
+                    <a href=" " target="_"><FaTwitter/></a>
+                    <a href=" " target="_"><FaInstagram/></a>
+                    <a href=" " target="_"><FaLinkedin/></a>
                 </div>
             </div>
         </div>

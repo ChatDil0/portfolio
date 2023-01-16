@@ -12,17 +12,11 @@ function HeroImg() {
             <img className="into-img" src={IntoImg} alt="IntoImg" />
         </div>
         <div className="content">
-            <p>hi, i'm a chathura</p>
-            <h1>FULL STACK DEVELOPER</h1>
+            <p>hi, i'm NAME</p>
+            <h1>DEVELOPER</h1>
             <div>
                 <Link to="/Projects" className="btn">Projects</Link>
                 <Link to="/Contact" className="btn btn-light">Contact</Link>
-            </div>
-            <div className="scroll">
-              <div className="scroll-icon">
-                <span className="wheel"></span>
-              </div>
-              <p>scroll down</p>
             </div>
         </div>
     </div>
