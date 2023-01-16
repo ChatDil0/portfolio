@@ -1,2 +1,1 @@
-# portfolio
-React portfolio. 
+React front-end portfolio sample
