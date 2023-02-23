@@ -13,7 +13,7 @@ React-based responsive portfolio template design by me. You're free to download 
 ### Initiate
 
 * Make sure to install node.js before initiate this web app.
-     * npm install 
+ * npm install requred
 
 ## Help
 
